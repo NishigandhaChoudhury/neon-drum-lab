@@ -4,6 +4,12 @@ A beginner-friendly **React Drum Machine** with a unique neon-inspired interface
 
 Play drum sounds using your **mouse or keyboard**, control the master volume, and turn the drum machine on or off.
 
+## 🚀 Live Demo
+
+👉 **[Try Neon Drum Lab Live](https://nishigandhachoudhury.github.io/neon-drum-lab/)**
+
+Play the drum machine directly in your browser using your mouse or keyboard.
+
 ## ✨ Features
 
 - 🎵 9 interactive drum pads
