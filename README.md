@@ -1,16 +1,65 @@
-# React + Vite
+# 🎛️ Neon Drum Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly **React Drum Machine** with a unique neon-inspired interface.
 
-Currently, two official plugins are available:
+Play drum sounds using your **mouse or keyboard**, control the master volume, and turn the drum machine on or off.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎵 9 interactive drum pads
+- ⌨️ Keyboard controls: `Q W E A S D Z X C`
+- 🖱️ Mouse click controls
+- 🔊 Master volume control
+- ⚡ Power ON/OFF toggle
+- 💡 Neon glow effect when a pad is played
+- 📟 Digital display showing the currently played sound
+- 📱 Responsive design
+- 🎧 Local MP3 drum samples
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 React Concepts Used
+
+- `useState` for application state and visual effects
+- `useRef` for controlling HTML audio elements
+- `useEffect` for keyboard event listeners
+- Event listener cleanup
+- Props and component communication
+- Lifting state up
+- Array `.map()` for dynamically creating drum pads
+
+## 📁 Project Structure
+
+```text
+drum-machine/
+├── public/
+│   └── audio/
+│       ├── kick.mp3
+│       ├── snare.mp3
+│       ├── clap.mp3
+│       ├── hihat.mp3
+│       ├── openhat.mp3
+│       ├── tom.mp3
+│       ├── lowtom.mp3
+│       ├── crash.mp3
+│       └── ride.mp3
+│
+├── src/
+│   ├── components/
+│   │   ├── DrumPad.jsx
+│   │   └── Display.jsx
+│   │
+│   ├── data/
+│   │   └── soundBank.js
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+└── package.json
